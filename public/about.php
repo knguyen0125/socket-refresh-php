@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>About Page</title>
 </head>
 <body>
-  <a href="about.php">About</a>
-  
-  <script src="restart/socket.io.js"></script>
-  <script src="restart/restart.js"></script>
+  <?php echo date('Y-m-d'); ?>
+  About Page
+  About Page
+  <?php include('restart/restartBlock.php') ?>
 </body>
 </html>
