@@ -1,0 +1,6 @@
+{
+  "watch": ["public/"],
+  "ext": "js,json,php",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "node ./public/restart/server.js"
+}

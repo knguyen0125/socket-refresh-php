@@ -1,0 +1,17 @@
+{
+  "name": "websocketphp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "php": "php -S localhost:8080 -t public",
+    "dev": "nodemon --config ./public/restart/nodemon.json"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
